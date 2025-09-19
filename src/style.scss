@@ -1,0 +1,49 @@
+body {
+    background-color: #cccccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#content{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#app{
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 50%;
+    display: grid;
+    grid-auto-flow:row;
+
+}
+
+#menuItemContainer {
+    display: grid;
+
+    grid-auto-flow: column;
+
+    div {
+        cursor: pointer;
+        padding: 1em;
+}
+
+
+
+classtest{
+
+    color:white;
+
+}
+}
+
+#content{
+
+ padding: 1em;
+
+}
+
+
