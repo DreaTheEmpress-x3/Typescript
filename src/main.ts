@@ -1,6 +1,8 @@
-import './style.css'
-// import data from '../'
+import './style.scss'
+import data from '../assets/json/data.json'
+import View from './View'
 
 (()=>{
-  console.log(`gooday fellow dev :3`)
+  console.log(data)
+  new View(data)
 })
