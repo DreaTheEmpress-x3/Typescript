@@ -12,11 +12,14 @@ class View {
 
         cardData.content.forEach((elem:Content) => {
             createDiv = document.createElement('div');
-            document.body.appendChild(createDiv);
-
+            createDiv.className = 'card-content';
+        
             createImg = document.createElement('img');
             createImg.src = `../assets/images/${elem.img}`;
-            document.body.appendChild(createImg);
+            createImg.alt = elem.img || 'card image';
+        
+            createDiv.appendChild(createImg);
+            mainContainer.appendChild(createDiv);
         })
     }
 }
